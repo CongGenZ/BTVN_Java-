@@ -24,7 +24,7 @@ public class Btvn {
 
         System.out.println("Nhap chuoi: ");
         String inputString = scanner.nextLine();
-
+           inputString = inputString .toLowerCase();
         String[] words = inputString.split("\\s+"); // Tách chuỗi thành mảng các từ
 
         System.out.print("Chu viet hoa cua ki tu dau tien: ");
